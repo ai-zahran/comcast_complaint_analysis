@@ -8,7 +8,7 @@ This repo contains code for running text analytics the [Comcast complaints](http
 This code was created to produce the tables that are used in the [Comcast complaints dashboard](https://public.tableau.com/views/ComcastComplaints/ComcastComplaints?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 
 The code performs the following text analytics steps:
-1. Topic modeling using [Top2Vec](https://github.com/ddangelov/Top2Vec)
+1. Topic modeling using [Top2Vec](https://github.com/ddangelov/Top2Vec).
 2. Named entity recognition using [Spacy](https://spacy.io/) and [RoBERTa Large NER English](https://huggingface.co/Jean-Baptiste/roberta-large-ner-english).
 3. Sentiment analysis using [TextBlob](https://textblob.readthedocs.io/en/dev/), [Vader](https://github.com/cjhutto/vaderSentiment), and the [Amazon Review Sentiment Analysis model](https://huggingface.co/LiYuan/amazon-review-sentiment-analysis).
 
